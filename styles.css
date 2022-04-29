@@ -1,0 +1,158 @@
+
+
+body {
+    background: skyblue;
+    color: black;
+
+    font-size: 16px;
+    font-weight: normal;
+    font-family: 'Times New Roman', Times, serif;
+    }
+
+a {
+    color:azure;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active { 
+    color:black; 
+}
+
+
+
+h2 {
+    font-size: 14px;
+    text-align: center
+}
+
+.FOTO {
+    width: 200px;
+    border-radius: 50px;
+    box-shadow: 14px 14px 20px rgba(254, 254, 255, 0.25);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.info {
+    display: flex;
+    margin-bottom: 20px;
+}
+.info p {
+    color: rgb(0, 0, 0);
+    margin: 40px;
+    font-style:italic;
+    font-weight:bold;
+    text-decoration: none;
+
+}
+
+@media (max-width: 700px) {
+    .info {
+        text-align:center;
+        display:block;
+    }
+}
+
+.info text {
+    margin-left: 40px;
+    
+}
+
+.container {
+    max-width: 750px;
+    margin: auto;
+    text-align: center
+}
+
+.forme {
+    background:white;
+    padding: 15px;
+    border: thick double rgba(8, 8, 8, 0.25)
+}
+
+.hobby {
+    padding: 15px 20px;
+    background: white;
+    margin-bottom:20px;
+    border-radius: 15px;
+}
+.bg-green {
+    background:rgba(185, 255, 194, 0.897)
+}
+
+.bg-yellow {
+    background:hsla(49, 92%, 86%, 0.897)
+}
+
+.bg-blue {
+    background:rgb(245, 208, 208)
+}
+
+.bg-forme { 
+    background:rgb(237, 210, 240)
+}
+
+.hobbylist {
+    padding:0 20px;
+}
+
+.hobbylist li {
+    color:rgb(0, 0, 0);
+    margin-bottom: 10px;
+}
+
+.table {
+    width: 100%;
+}
+
+.table td:nth-child(2), td:nth-child(3) {
+    color:rgb(66, 144, 189)
+}
+ 
+.contact h2 {
+    text-align: center;
+}
+
+.form-group label {
+    display: block;
+    font-size: 12px;
+    color:blue;
+}
+
+.form-group input
+.form-group textarea {
+    width: 100%;
+    box-sizing:border-box;
+    border: none;
+    border-bottom: 1px solid rgba(185, 255, 194, 0.897);
+    color:rgb(2, 2, 2);
+    padding: 15px 0 10px;
+    outline:none;
+    font-family: inherit;
+}
+
+.row {
+    display: flex;
+    margin-bottom: 20px;
+}
+.row > .form-group {
+    width:50%;
+    margin-right: 20px
+}
+
+.btn {
+    background:rgb(52, 33, 161);
+    color:white;
+    padding:20px 15px;
+    border:none;
+    font-family:inherit;
+    cursor:pointer;
+}
+
+.btn:hover {
+    opacity: 0.5;
+}
